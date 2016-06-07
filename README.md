@@ -1,6 +1,6 @@
-# React Native Mantra
+# DevHunt
 
-A simple app to demonstrate how React Native can be fit into Mantra. The app idea is inspired by [Andrew H Farmer](http://andrewhfarmer.com/starter-project/).
+An app to demonstrate how React Native can be fit into Mantra. The app idea is inspired by [Andrew H Farmer](http://andrewhfarmer.com/starter-project/).
 
 **this repo is built for only android. Feel free to add ios**
 
