@@ -7,7 +7,6 @@ import {
 import IconButton from './IconButton';
 
 const propTypes = {
-  YPos: PropTypes.number.isRequired,
   openDrawer: PropTypes.func.isRequired,
   Actions: PropTypes.any.isRequired,
   currentScene: PropTypes.any.isRequired,
@@ -89,7 +88,6 @@ class Toolbar extends Component {
 
   render() {
     const {
-      YPos,
       currentScene,
     } = this.props;
 
@@ -100,7 +98,7 @@ class Toolbar extends Component {
     const isMain = () => (name === 'main');
 
     return (
-      <View style={[styles.container, { top: YPos }]}>
+      <View style={[styles.container]}>
         {isMain() ? this.renderMenuBtn() : this.renderBackBtn()}
         <View style={[styles.segment, styles.fill]}>
           {isMain() ? this.renderLogo() : this.renderTitle()}

@@ -9,14 +9,15 @@
     "clean": "watchman watch-del-all"
   },
   "dependencies": {
-    "mantra-core": "^1.6.1",
-    "react": "^15.0.2",
-    "react-komposer-plus": "^2.0.0",
+    "eslint-plugin-react-native": "^1.1.0-beta",
+    "mantra-plus": "^2.0.6",
+    "mantra-redux": "^1.0.3",
+    "react": "15.0.2",
+    "react-komposer-plus": "^2.0.6",
     "react-native": "^0.26.3",
-    "react-native-button": "^1.6.0",
-    "react-native-drawer": "^2.2.3",
     "react-native-drawer-layout": "^1.0.0",
-    "react-native-meteor": "^1.0.0-rc7",
+    "react-native-material-kit": "^0.3.2",
+    "react-native-meteor": "^1.0.0-rc8",
     "react-native-router-flux": "^3.26.16",
     "react-native-scrollable-tab-view": "^0.4.3",
     "react-native-vector-icons": "^2.0.3",
@@ -25,7 +26,9 @@
     "redux-thunk": "^2.1.0"
   },
   "devDependencies": {
+    "babel-core": "^6.9.1",
     "babel-eslint": "^6.0.4",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-preset-react-native": "^1.9.0",
     "eslint": "^2.11.1",
     "eslint-config-airbnb": "^9.0.1",

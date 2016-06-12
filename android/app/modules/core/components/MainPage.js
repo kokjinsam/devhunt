@@ -7,6 +7,15 @@ import {
 import ScrollableTabContainer from 'react-native-scrollable-tab-view';
 import ScrollableTabCard from './ScrollableTabCard';
 import TopPad from './TopPad';
+import TestMeteor from '../containers/TestMeteor';
+
+import {
+  MKTextField,
+} from 'react-native-material-kit';
+
+const Textfield = MKTextField.textfield()
+  .withPlaceholder('Text...')
+  .build();
 
 const styles = StyleSheet.create({
   tabView: {
@@ -36,6 +45,8 @@ class MainPage extends Component {
             <Text>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </Text>
+            <Textfield />
+            <TestMeteor />
           </ScrollableTabCard>
           <ScrollableTabCard tabLabel="Open Source">
             <Text>
